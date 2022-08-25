@@ -7,9 +7,9 @@ function App() {
   const cambioEstado = () => {
     Change(!cambio)
   };
-   return (
-    <div className="App">
-      < Blum cambio={cambio} cambioEstado={cambioEstado}/>
+  return (
+    <div>
+      < Blum cambio={cambio} cambioEstado={cambioEstado} />
     </div>
   );
 }
